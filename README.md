@@ -17,7 +17,7 @@ Follow the below steps in sequence.
 
 		$ ./gradlew build && java -jar build/libs/spring-boot-docker-0.1.0.jar
 
-- Nevigate to http://localhost:8080[localhost:8080] to see your "Hello Docker World" message.
+- Navigate to http://localhost:8080 to see your "Hello Docker World" message.
 
 
 - To Containerize the Hello World Application (Refer the Dockerfile for details) run the cmds below which will build a Docker image in the name mydocker/spring-boot-docker:latest
@@ -35,7 +35,7 @@ Follow the below steps in sequence.
 	
 		$ docker run -p 8081:8080 -t mydocker/gs-spring-boot-docker
 
-- Nevigate to http://localhost:8081[localhost:8081] to see your "Hello Docker World" message.
+- Navigate to http://localhost:8081[localhost:8081] to see your "Hello Docker World" message.
 
 - Here 8081 is the Docker port and 8080 is the Tomcat port where is Spring Boot Application is 	running. 
 
