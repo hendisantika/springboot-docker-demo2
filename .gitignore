@@ -10,5 +10,6 @@ build
 target
 .gradle
 .idea
+spring-boot-docker.iml
 
 \.vscode/settings\.json
