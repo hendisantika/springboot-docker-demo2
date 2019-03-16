@@ -35,7 +35,7 @@ Follow the below steps in sequence.
 	
 		$ docker run -p 8081:8080 -t mydocker/gs-spring-boot-docker
 
-- Navigate to http://localhost:8081[localhost:8081] to see your "Hello Docker World" message.
+- Navigate to http://localhost:8081 to see your "Hello Docker World" message.
 
 - Here 8081 is the Docker port and 8080 is the Tomcat port where is Spring Boot Application is 	running. 
 
