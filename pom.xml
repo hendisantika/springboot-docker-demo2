@@ -13,13 +13,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.2.9</version>
+        <version>3.3.0</version>
         <relativePath/>
     </parent>
 
     <properties>
         <docker.image.prefix>mydocker</docker.image.prefix>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
     </properties>
 
     <build>
